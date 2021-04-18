@@ -1,0 +1,51 @@
+{
+  "prettier.enable": true,
+  "stylelint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[scss]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[less]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    // lintが終了しない場合があるのでデフォルトの保存時アクションはoffにして必要な言語でのみ設定
+    "source.fixAll.eslint": false,
+    "source.fixAll.stylelint": false
+  }
+}
